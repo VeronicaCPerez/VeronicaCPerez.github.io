@@ -33,7 +33,7 @@ horizontal: false
       {% include projects.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
+  {% endif %}
   {% endfor %}
 
 {%- else -%}
@@ -54,6 +54,6 @@ horizontal: false
       {% include projects.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
-{%- endif -%}
+  {% endif %}
+{% endif %}
 </div>
