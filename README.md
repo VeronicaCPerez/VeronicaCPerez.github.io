@@ -1,5 +1,20 @@
 # al-folio
 
+## Workflow
+
+* To install gemfile
+
+```
+bundle install
+```
+
+* To run html before deploying
+```
+bundle exec jekyll build
+```
+
+## Old README
+
 <div align="center">
 
 [![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
