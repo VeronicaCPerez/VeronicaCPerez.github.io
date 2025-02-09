@@ -14,8 +14,7 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "VeronicaCPerezP",
-        "url": "https://twitter.com/VeronicaCPerezP"
+        "username": "VeronicaCPerezP"
       }
     ]
   },
@@ -36,9 +35,29 @@
       "url": "https://www.uniandes.edu.co",
       "area": "Economics",
       "studyType": "MA",
-      "startDate": "2020-01-01",
+      "startDate": "2020-06-01",
       "endDate": "2022-05-01",
       "courses": ["Advanced Econometrics","Advanced Microeconomics General Equilibrium ","Forecasting in Economics"]
+    },
+    {
+      "institution": "Universidad de los Andes",
+      "location": "Bogotá, Colombia",
+      "url": "https://www.uniandes.edu.co",
+      "area": "Economics",
+      "studyType": "BsC",
+      "startDate": "2016-01-01",
+      "endDate": "2020-05-01"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Economics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Development and Growth",
+        "Political Economy",
+        "Economic History"
+      ]
     }
   ],
   "certificates": [
@@ -73,25 +92,18 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "The Who, What, When, and How of Industrial Policy: A Text-based Approach.",
+      "publisher": "Working Paper",
+      "releaseDate": "2022-08",
+      "url": "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4198209",
+      "summary": "Since the 18th century, policymakers have debated the merits of industrial policy (IP). Yet, economists lack basic facts about its use. This study sheds light on industrial policy by measuring and studying global policy practice for the first time. We first create an automated classification algorithm for categorizing industrial policy practice from text. We then apply it to a global database of commercial policy descriptions and quantify policy use at the country, industry, and year levels (2009-2020). These data allow us to study fundamental policy patterns across the world. We highlight four findings. First, IP is common (25% of policies in our database) and has expanded since 2010. Second, instead of blunt tariffs, IP is granular and technocratic. Countries tend to use subsidies and export promotion measures, often targeted at individual firms. Third, the countries engaged most in IP tend to be wealthier (top income quintile) liberal democracies. In our data, IP is rarer among the poorest nations (bottom quintile). Fourth, IP is targeted toward a subset of industries and is highly correlated with an industry’s revealed comparative advantage. We show that industrial policy is a prominent feature of the global economy and a far cry from industrial policies of the past."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
+      "name": "The effect of industrialization on political dynasties: Evidence from Colombian local governments.",
+      "publisher": "Working Paper",
+      "releaseDate": "2020",
+      "url": "https://repositorio.uniandes.edu.co/entities/publication/17c39bcd-48f3-4434-85f9-037edc665e48",
       "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   // "skills": [
@@ -121,25 +133,12 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Economics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Development and Growth",
-        "Political Economy",
-        "Economic History"
-      ]
-    }
-  ],
   "references": [
     {
-      "name": "Professor Réka Juhász",
-      "icon": "fa-solid fa-laptop"
+      "name": "Professor Réka Juhász"
     },
     {
-      "name": "Professor Nathaniel Lane",
-      "icon": "fa-solid fa-thumbtack"
+      "name": "Professor Nathaniel Lane"
     }
   ]
   // "projects": [
