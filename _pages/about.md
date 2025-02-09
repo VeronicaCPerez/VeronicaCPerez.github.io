@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: <a href='#'>PhD student at Boston University</a>.
 profile:
   align: right
@@ -10,6 +10,7 @@ profile:
   address: >
     <p>Department of Economics</p> <p>Boston University</p> <p>270 Bay State Road</p> <p>Boston, MA.</p>
 news: false
+nav: true
 selected_papers: true
 social: true
 ---
