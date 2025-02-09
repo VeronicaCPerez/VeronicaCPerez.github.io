@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /about/
+permalink: /
 subtitle: <a href='#'>PhD student at Boston University</a>.
 profile:
   align: right
