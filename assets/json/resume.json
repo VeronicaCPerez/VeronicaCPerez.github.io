@@ -64,30 +64,20 @@
     {
       "name": "Machine Learning Foundations: A Case Study Approach",
       "date": "2020",
-      "issuer": "Coursera",
-      // "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "issuer": "Coursera"
+      // "url": "https://example.com"
     },
     {
       "name": "Python for Everybody",
       "date": "2020",
-      "issuer": "Coursera",
-      // "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "issuer": "Coursera"
+      // "url": "https://example.com"
     },
     {
       "name": "Neural Networks and Deep Learning",
       "date": "2021",
-      "issuer": "Coursera",
-      // "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "issuer": "Coursera"
+      // "url": "https://example.com"
     }
   ],
   "publications": [
