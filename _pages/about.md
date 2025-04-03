@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>PhD student at Boston University</a>.
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic2025.jpg
   image_circular: false
   address: >
     <p>Department of Economics</p> <p>Boston University</p> <p>270 Bay State Road</p> <p>Boston, MA.</p>
