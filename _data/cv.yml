@@ -52,9 +52,9 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Economic History.
-    - title: Political Economy.
     - title: Development and Growth.
+    - title: International Trade.
+    - title: Political Economy.
 
 # - title: Other Interests
 #   type: list
