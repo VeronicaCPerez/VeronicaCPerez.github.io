@@ -79,6 +79,8 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Install Bundler
+        run: gem install bundler
       - name: Install dependencies
         run: bundle install
       - name: Install ImageMagick
