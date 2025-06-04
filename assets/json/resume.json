@@ -82,12 +82,11 @@
   ],
   "publications": [
     {
-      "name": "Measuring Industrial Policy: A Text-Based Approach",
+      "name": "The Who, What, When, and How of Industrial Policy: A Text-based Approach.",
       "publisher": "Working Paper",
-      "releaseDate": "2025-05",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5262841",
-      "summary": "*previously circulated as 'The Who, What, When, and How of Industrial Policy: A Text-Based Approach'. 
-      Since the 18th century, policymakers have debated the merits of industrial policy (IP). Yet, economists lack basic facts about its use due to measurement challenges. We propose a new approach to IP measurement based on information contained in policy text. We show how off-the-shelf supervised machine learning tools can be used to categorize industrial policies at scale. Using this approach, we validate longstanding concerns with earlier approaches to measurement which conflate IP with other types of policy. We apply our methodology to a global database of commercial policy descriptions, and provide a first look at IP use at the country, industry, and year levels (2010-2022). The new data on IP suggest that i) IP is on the rise; ii) modern IP tends to use subsidies and export promotion measures as opposed to tariffs; iii) rich countries heavily dominate IP use; iv) IP tends to target sectors with an established comparative advantage, particularly in high-income countries."
+      "releaseDate": "2022-08",
+      "url": "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4198209",
+      "summary": "Since the 18th century, policymakers have debated the merits of industrial policy (IP). Yet, economists lack basic facts about its use. This study sheds light on industrial policy by measuring and studying global policy practice for the first time. We first create an automated classification algorithm for categorizing industrial policy practice from text. We then apply it to a global database of commercial policy descriptions and quantify policy use at the country, industry, and year levels (2009-2020). These data allow us to study fundamental policy patterns across the world. We highlight four findings. First, IP is common (25% of policies in our database) and has expanded since 2010. Second, instead of blunt tariffs, IP is granular and technocratic. Countries tend to use subsidies and export promotion measures, often targeted at individual firms. Third, the countries engaged most in IP tend to be wealthier (top income quintile) liberal democracies. In our data, IP is rarer among the poorest nations (bottom quintile). Fourth, IP is targeted toward a subset of industries and is highly correlated with an industry’s revealed comparative advantage. We show that industrial policy is a prominent feature of the global economy and a far cry from industrial policies of the past."
     },
     {
       "name": "The effect of industrialization on political dynasties: Evidence from Colombian local governments.",
