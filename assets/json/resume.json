@@ -6,29 +6,86 @@
     "email": "vcperez@bu.edu",
     "url": "https://veronicacperez.github.io",
     "location": {
-      "address": "270 Bay State Rd",
-      "postalCode": "MA 02215",
+      "address": "270 Bay State Road",
+      "postalCode": "MA 02135",
       "city": "Boston",
       "countryCode": "US"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "VeronicaCPerezP"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
+      "name": "Boston University",
+      "position": "Research Assistant to Prof. Tarek Hassan",
+      "url": "https://sites.bu.edu/tahassan/",
+      "startDate": "2025-09-01",
+      "summary": ""
+    },
+    {
       "name": "Columbia University",
-      "position": "Pre-Doctoral Fellow",
+      "position": "Pre-Doctoral Fellow (Prof. Michael Best)",
+      "url": "https://econ.columbia.edu/per/",
+      "startDate": "2022-09-01",
+      "endDate": "2023-07-01",
+      "summary": ""
+    },
+    {
+      "name": "Columbia University",
+      "position": "Pre-Doctoral Fellow (Prof. Réka Juhász)",
       "url": "https://econ.columbia.edu/per/",
       "startDate": "2021-09-01",
-      "endDate": "2023-07-01",
-      "summary": "Pre-Doctoral Fellow at the Department of Economics under the supervision of Prof. Réka Juhász and Prof. Michael Best."
+      "endDate": "2022-08-01",
+      "summary": ""
+    },
+    {
+      "name": "Universidad de los Andes",
+      "position": "Research Assistant to Prof. Juan Sebastián Galán",
+      "url": "https://economia.uniandes.edu.co",
+      "startDate": "2020-01-01",
+      "endDate": "2021-12-01",
+      "summary": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Boston University",
+      "position": "Teaching Fellow — Introduction to Microeconomics",
+      "startDate": "2024-09-01",
+      "endDate": "2025-05-01",
+      "summary": "TF to Prof. Onur Celik (Fall) and Prof. Todd Idson (Spring)."
+    },
+    {
+      "organization": "Universidad de los Andes",
+      "position": "Teaching Assistant — Global Economic History",
+      "startDate": "2021-01-01",
+      "endDate": "2021-12-01",
+      "summary": "TA to Prof. Juan Sebastián Galán."
+    },
+    {
+      "organization": "Universidad de los Andes",
+      "position": "Teaching Fellow — Introduction to Econometrics",
+      "startDate": "2020-08-01",
+      "endDate": "2021-05-01",
+      "summary": "TF to Prof. Ramón Rosales."
+    },
+    {
+      "organization": "Universidad de los Andes",
+      "position": "Teaching Fellow — Introduction to Microeconomics",
+      "startDate": "2020-01-01",
+      "endDate": "2020-06-01",
+      "summary": "TF to Prof. Juan Camilo Cárdenas and Prof. Andrés Moya."
     }
   ],
   "education": [
+    {
+      "institution": "Boston University",
+      "location": "Boston, MA, USA",
+      "url": "https://www.bu.edu/econ/",
+      "area": "Economics",
+      "studyType": "PhD (Expected 2028)",
+      "startDate": "2023-09-01",
+      "endDate": "2028-05-01"
+    },
     {
       "institution": "Universidad de los Andes",
       "location": "Bogotá, Colombia",
@@ -37,16 +94,37 @@
       "studyType": "MA",
       "startDate": "2020-06-01",
       "endDate": "2022-05-01",
-      "courses": ["Advanced Econometrics","Advanced Microeconomics General Equilibrium ","Forecasting in Economics"]
+      "courses": ["Advanced Econometrics", "Advanced Microeconomics General Equilibrium", "Forecasting in Economics"]
     },
     {
       "institution": "Universidad de los Andes",
       "location": "Bogotá, Colombia",
       "url": "https://www.uniandes.edu.co",
       "area": "Economics",
-      "studyType": "BsC",
+      "studyType": "BSc",
       "startDate": "2016-01-01",
       "endDate": "2020-05-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best results in the State examinations for higher education quality (SABER PRO)",
+      "date": "2019",
+      "awarder": "Colombian Ministry of Education",
+      "summary": ""
+    },
+    {
+      "title": "Andrés Bello distinction for best results in the high school exit examination (SABER 11)",
+      "date": "2015",
+      "awarder": "Colombian Ministry of Education",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Coding",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "R", "STATA", "ArcGIS", "MATLAB", "SQL"]
     }
   ],
   "interests": [
@@ -60,27 +138,14 @@
       ]
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning Foundations: A Case Study Approach",
-      "date": "2020",
-      "issuer": "Coursera"
-      // "url": "https://example.com"
-    },
-    {
-      "name": "Python for Everybody",
-      "date": "2020",
-      "issuer": "Coursera"
-      // "url": "https://example.com"
-    },
-    {
-      "name": "Neural Networks and Deep Learning",
-      "date": "2021",
-      "issuer": "Coursera"
-      // "url": "https://example.com"
-    }
-  ],
   "publications": [
+    {
+      "name": "Localization and Steering of Economic Uncertainty in Large Language Models.",
+      "publisher": "Working Paper",
+      "releaseDate": "2026",
+      "url": "/assets/pdf/econ_uncertainty_llm.pdf",
+      "summary": "Economic uncertainty shapes investment, hiring, and asset prices, making its measurement from text a central task in economics and finance. While LLMs accurately measure uncertainty in financial texts such as earnings call transcripts, it remains unclear whether they develop coherent internal representations or merely pattern-match on surface lexical cues. In this study, we discover that LLMs linearly represent economic uncertainty with a single direction in the residual stream. Using activation patching on two synthetic datasets of contrastive earnings-call statements with varying linguistic styles, we localize this direction and find that models aggregate the uncertainty signal at the final token regardless of lexical patterns. The extracted direction perfectly separates held-out high- and low-uncertainty statements both within- and cross-dataset. Causal interventions show that adding or subtracting this direction monotonically flips uncertainty predictions, including cross-dataset transfer from templated to naturalistic text. Finally, in a downstream portfolio allocation task using real earnings-call excerpts, steering along the uncertainty direction shifts model investment toward safe assets, consistent with economic theory. Together, our results establish that LLMs encode economic uncertainty as a structured, causally active, and transferable representation, offering a foundation for interpretability-based auditing and control of LLMs deployed in financial analysis."
+    },
     {
       "name": "Measuring Industrial Policy: A Text-Based Approach.",
       "publisher": "Working Paper",
@@ -90,27 +155,12 @@
     },
     {
       "name": "The effect of industrialization on political dynasties: Evidence from Colombian local governments.",
-      "publisher": "Working Paper",
-      "releaseDate": "2020",
+      "publisher": "M.A. Thesis",
+      "releaseDate": "2022-07",
       "url": "https://repositorio.uniandes.edu.co/entities/publication/17c39bcd-48f3-4434-85f9-037edc665e48",
-      "summary": "In this paper I find that industrialization reduces the concentration of political power, measured by the share of elected officials that were part of political dynasties, in the context of 19 Colombian departments. I use newly digitized data from departmental production by industrial sector since 1969 and the international price of manufactures as an exogenous source of variation in the industrialization levels. Using an instrumental variable approach, I find that an increase in one paid manufacturing employee reduces the share of elected individuals from dynasties by 1.15 p.p. Dividing the results by type of office indicates that the impact is more prominent in the election of dynastic individuals in the legislative brand compared to those elected in the executive one. One additional paid employee decreases the average share of dynastic mayors by 0.75 p.p., a 7.8% decrease in the average. On the other hand, an increase in a paid employee decreases the percentage of representatives from dynastic families by 3.24 p.p., which represents a diminution of 13.4%. I propose multiple mechanisms that could be driving these results including the relevance of industrialization to the creation of labor unions, and in the redistribution of resources such as education and income."
+      "summary": "In this paper I find that industrialization reduces the concentration of political power, measured by the share of elected officials that were part of political dynasties, in the context of 19 Colombian departments. I use newly digitized data from departmental production by industrial sector since 1969 and the international price of manufactures as an exogenous source of variation in the industrialization levels. Using an instrumental variable approach, I find that an increase in one paid manufacturing employee reduces the share of elected individuals from dynasties by 1.15 p.p. Dividing the results by type of office indicates that the impact is more prominent in the election of dynastic individuals in the legislative brand compared to those elected in the executive one. One additional paid employee decreases the average share of dynastic mayors by 0.75 p.p., a 7.8% decrease in the average. On the other hand, an increase in a paid employee decreases the percentage of representatives from dynastic families by 3.24 p.p., which represents a diminution of 13.4%."
     }
   ],
-  // "skills": [
-  //   {
-  //     "name": "Physics",
-  //     "level": "Master",
-  //     "icon": "fa-solid fa-hashtag",
-  //     "keywords": [
-  //       "Quantum Mechanics",
-  //       "Quantum Computing",
-  //       "Quantum Information",
-  //       "Quantum Cryptography",
-  //       "Quantum Communication",
-  //       "Quantum Teleportation"
-  //     ]
-  //   }
-  // ],
   "languages": [
     {
       "language": "Spanish",
@@ -125,20 +175,16 @@
   ],
   "references": [
     {
-      "name": "Professor Réka Juhász"
+      "name": "Prof. Tarek Hassan",
+      "reference": "Boston University, Department of Economics — thassan@bu.edu"
     },
     {
-      "name": "Professor Nathaniel Lane"
+      "name": "Prof. Stefania Garetto",
+      "reference": "Boston University, Department of Economics — garettos@bu.edu"
+    },
+    {
+      "name": "Prof. Réka Juhász",
+      "reference": "University of British Columbia, Vancouver School of Economics — reka.juhasz@ubc.ca"
     }
   ]
-  // "projects": [
-  //   {
-  //     "name": "Quantum Computing",
-  //     "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-  //     "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-  //     "startDate": "2018-01-01",
-  //     "endDate": "2018-01-01",
-  //     "url": "https://example.com"
-  //   }
-  // ]
 }

@@ -1,5 +1,16 @@
 ---
 ---
+@techreport{WPSS_EconUncertaintyLLM,
+  abbr={Working Paper},
+  title={Localization and Steering of Economic Uncertainty in Large Language Models.},
+  author={Wang, R. and Pérez, V.C. and Schlesinger, C. and Sun, L.},
+  abstract={Economic uncertainty shapes investment, hiring, and asset prices, making its measurement from text a central task in economics and finance. While LLMs accurately measure uncertainty in financial texts such as earnings call transcripts, it remains unclear whether they develop coherent internal representations or merely pattern-match on surface lexical cues. In this study, we discover that LLMs linearly represent economic uncertainty with a single direction in the residual stream. Using activation patching on two synthetic datasets of contrastive earnings-call statements with varying linguistic styles, we localize this direction and find that models aggregate the uncertainty signal at the final token regardless of lexical patterns. The extracted direction perfectly separates held-out high- and low-uncertainty statements both within- and cross-dataset. Causal interventions show that adding or subtracting this direction monotonically flips uncertainty predictions, including cross-dataset transfer from templated to naturalistic text. Finally, in a downstream portfolio allocation task using real earnings-call excerpts, steering along the uncertainty direction shifts model investment toward safe assets, consistent with economic theory. Together, our results establish that LLMs encode economic uncertainty as a structured, causally active, and transferable representation, offering a foundation for interpretability-based auditing and control of LLMs deployed in financial analysis.},
+  year={2026},
+  selected={true},
+  bibtex_show={true},
+  pdf={econ_uncertainty_llm.pdf}
+}
+
 @techreport{JLOP,
   abbr={Working Paper},
   title={Measuring Industrial Policy: A Text-Based Approach.},
