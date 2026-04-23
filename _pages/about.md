@@ -15,7 +15,7 @@ selected_papers: true
 social: true
 ---
 
-I am a third-year PhD candidate in economics at Boston University. My research focuses on development and growth, international trade and economic history, with a strong emphasis on computational and data-driven methods. Most of my work applies machine learning and text analysis to investigate complex economic questions.
+I am a third-year PhD candidate in economics at Boston University. My research focuses on innovation and industrial policy. I use text-as-data and computational methods to investigate complex economic questions. Part of my work also examines how large language models represent and reason about economic concepts.
 
 My joint work with Prof. Réka Juhász and Prof. Nathaniel Lane, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5262841">Measuring Industrial Policy: A Text-Based Apprach</a>, has been featured in <a href="https://www.bloomberg.com/news/features/2023-07-25/global-subsidy-wars-force-us-allies-to-pay-up-for-chips-evs?in_source=embedded-checkout-banner">Bloomberg</a>,<a href="https://www.wsj.com/articles/this-part-of-bidenomics-needs-more-economics-2cea1641">The Wall Street Journal</a>, <a href="https://www.economist.com/special-report/2023/10/02/governments-across-the-world-are-discovering-homeland-economics">The Economist</a>, and other outlets.
 
